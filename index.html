@@ -1,0 +1,205 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<link rel="shortcut icon" href="images/lo.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>电子工艺训练赋分平台</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript" language="javascript" src="js/jquery.dropdown.js"></script>
+<script type="text/javascript">
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+</head>
+
+<body>
+
+
+<div id="top">
+        <form name="dataForm" action="/cms/search/searchResults.jsp" target="_blank" method="post" accept-charset="utf-8">
+<div id="nr">
+      <div id="logo"><a href="index.htm"><img src="images/logo2.jpg" border="0"></a></div>
+      <div id="search">
+          <input name="query" type="text" class="input" id="query" value="站内搜索" onFocus="this.value=''">
+          <input name="imageField" type="image" class="submit" id="imageField" src="images/index3.jpg">
+    </div>
+      <div id="page-wrap">
+      	<ul class="dropdown">
+        	<li><a href="https://txxy.jxstnu.edu.cn/news-list-xueyuangaikuang.html">学院概况</a>
+</li>
+                    	<li>
+            <a href="https://txxy.jxstnu.edu.cn/news-list-xueyuanxinwen.html">学院新闻</a>
+        		<ul class="sub_menu">
+                                          <li><a href="jgszyzn/ryzc/index.htm">人员组成</a></li>
+                                          <li><a href="jgszyzn/gzzz/index.htm">工作职责</a></li>
+                             		</ul>
+            </li>
+                    	<li>
+            <a href="https://txxy.jxstnu.edu.cn/news-list-dangtuangongzuo.html">党团工作</a>
+        		<ul class="sub_menu">
+                                          <li><a href="gzzd/gwsz/index.htm">岗位设置</a></li>
+                                          <li><a href="gzzd/rcgz/index.htm">人才工作</a></li>
+                                          <li><a href="gzzd/jzggl/index.htm">教工管理</a></li>
+                                          <li><a href="gzzd/zcgz/index.htm">职称工作</a></li>
+                             		</ul>
+            </li>
+                    	<li>
+            <a href="https://txxy.jxstnu.edu.cn/news-list-zhaoshengjiuye.html">招生就业</a>
+        		<ul class="sub_menu">
+                                          <li><a href="zcfg/gjzcfg/index.htm">国家政策法规</a></li>
+                                          <li><a href="zcfg/sbzcfg/index.htm">省部政策法规</a></li>
+                             		</ul>
+            </li>
+
+            
+            
+                    	<li>
+            <a href="https://txxy.jxstnu.edu.cn/news-list-jiaoxueyanjiu.html">教学科研</a>
+        		<ul class="sub_menu">
+                             		</ul>
+            </li>
+                    	<li><a href="https://txxy.jxstnu.edu.cn/news-list-sysjs.html">人才培养</a>
+<ul class="sub_menu">
+                                          <li><a href="xzzx/szgl/index.htm">师资表格</a></li>
+                                          <li><a href="xzzx/zzdb/index.htm">在职读博</a></li>
+                                          <li><a href="xzzx/jsbg/index.htm">计生表格</a></li>
+                                          <li><a href="xzzx/gccrc/index.htm">高层次人才</a></li>
+                                          <li><a href="xzzx/qt/index.htm">其他表格</a></li>
+                             		</ul>
+            </li>
+                    </ul>
+      </div>
+      <div style="clear:both;"></div>
+  </div>
+  </form>
+</div><div id="mid">
+<div id="nr">
+<div class="banner-box">
+	<div class="bd">
+        <ul>          	    
+                        <li>
+                <div class="m-width">
+                <a href="tpxw/84285.htm"><img src="images/banner1.jpg" height="380" width="1000" /></a>
+                </div>
+            </li>
+                        <li>
+                <div class="m-width">
+                <a href="tpxw/84284.htm"><img src="images/banner2.jpg" height="380" width="1000" /></a>
+                </div>
+            </li>
+                        <li>
+                <div class="m-width">
+                <a href="tpxw/84283.htm"><img src="images/banner3.jpg" height="380" width="1000" /></a>
+                </div>
+            </li>
+                        <li>
+                <div class="m-width">
+                <a href="tpxw/84282.htm"><img src="images/banner4.jpg" height="380" width="1000" /></a>
+                </div>
+            </li>
+                    </ul>
+    </div>
+    <div class="banner-btn">
+        <a class="prev" href="javascript:void(0);"></a>
+        <a class="next" href="javascript:void(0);"></a>
+        <div class="hd"><ul></ul></div>
+        <div id="apDiv1"><img src="images/20141218104048970395.png" ></div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function(){
+
+	$(".prev,.next").hover(function(){
+		$(this).stop(true,false).fadeTo("show",0.9);
+	},function(){
+		$(this).stop(true,false).fadeTo("show",0.4);
+	});
+	
+	$(".banner-box").slide({
+		titCell:".hd ul",
+		mainCell:".bd ul",
+		effect:"fold",
+		interTime:3500,
+		delayTime:500,
+		autoPlay:true,
+		autoPage:true, 
+		trigger:"click" 
+	});
+
+});
+</script>
+ </div>
+</div>
+<div id="btm">
+      <div id="nr">
+  <div id="left">
+<div id="link">
+      	<ul>
+        	<li><a href="jcrc/index.htm">教务管理</a></li>
+        	<li><a href="yxtdhjt/index.htm">学生管理</a></li>
+        	<li><a href="ysgzz/index.htm">内部办公</a></li>
+        	<li><a href="bshkyldz/index.htm">教学资源</a></li>
+        	<li><a href="jszp/index.htm">图书馆</a></li>
+        	<li><a href="http://172.26.26.14/jiaoxue">学生天地</a></li>
+            <li><a href="http://172.26.26.14/jiaoxue">校园文化</a></li>
+        </ul>
+      <div style="clear:both"></div>
+    </div>    <div id="gzdt">
+      <div id="tit">
+      <a href="gztz/index.htm">more ></a><b>通知公告</b><em>Notices</em>
+      <div style="clear:both"></div>
+      </div>
+      <div id="list">
+        <li>
+          <a href="http://txxy.jxstnu.edu.cn/news-show-1514.html" target="_blank">通信与电子学院联合人民邮电出版社举办书展活动  </a>
+        </li>
+      </div>
+    </div>
+    <div id="gzdt">
+      <div id="tit">
+      <a href="rsdt/index.htm">more ></a><b>成绩公示</b><em>News</em>
+      <div style="clear:both"></div>
+      </div>
+      <div id="list">
+        <li>
+          <a href="E:\D盘\information\progress\platform\电子工艺训练作品验收表公示.html" target="_blank">2022-2023年电子工艺训练作品验收表公示</a>
+        </li>
+        
+      </div>
+      <div style="clear:both"></div>
+    </div>
+      <div style="clear:both"></div>
+  </div>
+  <div id="right">
+    <div id="link1"><a href="http://"><img src="images/czxx.gif" width="221" height="65" border="0"></a></div>
+    <div id="link2"><a href="lxwm/index.htm"><img src="images/lxwm_1.gif" width="221" height="68" border="0"></a></div>
+    <div id="link2"><a href="lxwm/index.htm"><img src="images/lxwm.gif" width="221" height="68" border="0"></a></div>
+      <form name="form" id="form">
+    <div id="link3">
+        <select name="jumpMenu" id="jumpMenu" onChange="MM_jumpMenu('parent',this,0)">
+          <option >-------- 校内链接 --------</option>
+                      <OPTION value=https://www.jxstnu.edu.cn/ >江西科技师范大学</OPTION>
+                      <OPTION value=http://my.jxstnu.edu.cn/ >教务管理</OPTION>
+                      <OPTION value=http://my.jxstnu.edu.cn/ >学生信息管理系统</OPTION>
+                      <OPTION value=http://jxstnu.fanya.chaoxing.com/portal >超星泛雅教学平台</OPTION>
+                      <OPTION value=http://txxy.jxstnu.edu.cn/ >通信与电子学院</OPTION>
+                      <OPTION value=http://jwc.jxstnu.edu.cn/ >教务处</OPTION>
+                      <OPTION value=http://xgb.jxstnu.edu.cn/ >学生工作处</OPTION>
+                      <OPTION value=https://houqin.jxstnu.edu.cn/ >后勤保障处</OPTION>
+                    </select>
+    </div>
+
+      </form>
+  </div>
+      <div style="clear:both"></div>
+  </div>
+</div>
+
+
+</body></html>
